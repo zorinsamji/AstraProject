@@ -1,0 +1,42 @@
+<xml>
+  <block type="component_event" id="1" x="98" y="28">
+    <mutation component_type="Button" instance_name="Submit" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Submit</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="2" inline="false">
+        <value name="SCREEN">
+          <block type="text" id="3">
+            <field name="TEXT">HomePage</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="4" x="101" y="125">
+    <mutation component_type="Button" instance_name="RegAsEmployee" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">RegAsEmployee</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="5" inline="false">
+        <value name="SCREEN">
+          <block type="text" id="6">
+            <field name="TEXT">SignUpEmployee</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="7" x="98" y="210">
+    <mutation component_type="Button" instance_name="RegAsEmployer" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">RegAsEmployer</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="8" inline="false">
+        <value name="SCREEN">
+          <block type="text" id="9">
+            <field name="TEXT">SignUpEmployer</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <yacodeblocks ya-version="150" language-version="20"></yacodeblocks>
+</xml>
