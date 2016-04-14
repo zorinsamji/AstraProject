@@ -1,4 +1,4 @@
-<xml>
+<xml xmlns="http://www.w3.org/1999/xhtml">
   <block type="component_event" id="1" x="128" y="23">
     <mutation component_type="Button" instance_name="Button1" event_name="Click"></mutation>
     <field name="COMPONENT_SELECTOR">Button1</field>
@@ -7,6 +7,24 @@
         <value name="SCREEN">
           <block type="text" id="3">
             <field name="TEXT">HomePage</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="255" x="165" y="177">
+    <mutation component_type="ImagePicker" instance_name="ImagePicker1" event_name="AfterPicking"></mutation>
+    <field name="COMPONENT_SELECTOR">ImagePicker1</field>
+    <statement name="DO">
+      <block type="component_set_get" id="273" inline="false">
+        <mutation component_type="Image" set_or_get="set" property_name="Picture" is_generic="false" instance_name="Image1"></mutation>
+        <field name="COMPONENT_SELECTOR">Image1</field>
+        <field name="PROP">Picture</field>
+        <value name="VALUE">
+          <block type="component_set_get" id="309">
+            <mutation component_type="ImagePicker" set_or_get="get" property_name="Image" is_generic="false" instance_name="ImagePicker1"></mutation>
+            <field name="COMPONENT_SELECTOR">ImagePicker1</field>
+            <field name="PROP">Image</field>
           </block>
         </value>
       </block>

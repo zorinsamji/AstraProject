@@ -1,4 +1,4 @@
-<xml>
+<xml xmlns="http://www.w3.org/1999/xhtml">
   <block type="component_event" id="1" x="98" y="28">
     <mutation component_type="Button" instance_name="Submit" event_name="Click"></mutation>
     <field name="COMPONENT_SELECTOR">Submit</field>

@@ -1,4 +1,4 @@
-<xml>
+<xml xmlns="http://www.w3.org/1999/xhtml">
   <block type="component_event" id="1" x="60" y="24">
     <mutation component_type="Button" instance_name="Button3" event_name="Click"></mutation>
     <field name="COMPONENT_SELECTOR">Button3</field>
@@ -19,7 +19,7 @@
       <block type="controls_openAnotherScreen" id="5" inline="false">
         <value name="SCREEN">
           <block type="text" id="6">
-            <field name="TEXT">ProfileEmployee</field>
+            <field name="TEXT">ProfileEmployer</field>
           </block>
         </value>
       </block>
