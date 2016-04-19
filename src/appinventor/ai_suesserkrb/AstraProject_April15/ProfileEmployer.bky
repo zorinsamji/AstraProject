@@ -12,26 +12,26 @@
       </block>
     </statement>
   </block>
-  <block type="component_event" id="7" x="57" y="166">
+  <block type="component_event" id="4" x="57" y="166">
     <mutation component_type="Button" instance_name="Button4" event_name="Click"></mutation>
     <field name="COMPONENT_SELECTOR">Button4</field>
     <statement name="DO">
-      <block type="controls_openAnotherScreen" id="8" inline="false">
+      <block type="controls_openAnotherScreen" id="5" inline="false">
         <value name="SCREEN">
-          <block type="text" id="9">
+          <block type="text" id="6">
             <field name="TEXT">EmployeeList</field>
           </block>
         </value>
       </block>
     </statement>
   </block>
-  <block type="component_event" id="10" x="61" y="249">
+  <block type="component_event" id="7" x="61" y="249">
     <mutation component_type="Button" instance_name="Button9" event_name="Click"></mutation>
     <field name="COMPONENT_SELECTOR">Button9</field>
     <statement name="DO">
-      <block type="controls_openAnotherScreen" id="11" inline="false">
+      <block type="controls_openAnotherScreen" id="8" inline="false">
         <value name="SCREEN">
-          <block type="text" id="12">
+          <block type="text" id="9">
             <field name="TEXT">PostJobOffer</field>
           </block>
         </value>

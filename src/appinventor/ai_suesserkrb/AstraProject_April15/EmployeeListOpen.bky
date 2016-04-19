@@ -1,24 +1,24 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="component_event" id="34" x="-1035" y="-456">
+  <block type="component_event" id="1" x="-1035" y="-456">
     <mutation component_type="Button" instance_name="Button1" event_name="Click"></mutation>
     <field name="COMPONENT_SELECTOR">Button1</field>
     <statement name="DO">
-      <block type="controls_openAnotherScreen" id="53" inline="false">
+      <block type="controls_openAnotherScreen" id="2" inline="false">
         <value name="SCREEN">
-          <block type="text" id="101">
+          <block type="text" id="3">
             <field name="TEXT">HomePage</field>
           </block>
         </value>
       </block>
     </statement>
   </block>
-  <block type="component_event" id="83" x="-1007" y="-280">
+  <block type="component_event" id="4" x="-1007" y="-280">
     <mutation component_type="Button" instance_name="Button4" event_name="Click"></mutation>
     <field name="COMPONENT_SELECTOR">Button4</field>
     <statement name="DO">
-      <block type="controls_openAnotherScreen" id="84" inline="false">
+      <block type="controls_openAnotherScreen" id="5" inline="false">
         <value name="SCREEN">
-          <block type="text" id="116">
+          <block type="text" id="6">
             <field name="TEXT">ProfileEmployer</field>
           </block>
         </value>

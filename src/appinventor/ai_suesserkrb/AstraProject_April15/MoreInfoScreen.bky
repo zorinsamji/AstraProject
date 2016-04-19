@@ -12,26 +12,26 @@
       </block>
     </statement>
   </block>
-  <block type="component_event" id="7" x="-365" y="-343">
+  <block type="component_event" id="4" x="-365" y="-343">
     <mutation component_type="Button" instance_name="Button5" event_name="Click"></mutation>
     <field name="COMPONENT_SELECTOR">Button5</field>
     <statement name="DO">
-      <block type="component_set_get" id="8" inline="false">
+      <block type="component_set_get" id="5" inline="false">
         <mutation component_type="Button" set_or_get="set" property_name="Visible" is_generic="false" instance_name="Button5"></mutation>
         <field name="COMPONENT_SELECTOR">Button5</field>
         <field name="PROP">Visible</field>
         <value name="VALUE">
-          <block type="logic_boolean" id="9">
+          <block type="logic_boolean" id="6">
             <field name="BOOL">FALSE</field>
           </block>
         </value>
         <next>
-          <block type="component_set_get" id="10" inline="false">
+          <block type="component_set_get" id="7" inline="false">
             <mutation component_type="Button" set_or_get="set" property_name="Visible" is_generic="false" instance_name="Button10"></mutation>
             <field name="COMPONENT_SELECTOR">Button10</field>
             <field name="PROP">Visible</field>
             <value name="VALUE">
-              <block type="logic_boolean" id="11">
+              <block type="logic_boolean" id="8">
                 <field name="BOOL">TRUE</field>
               </block>
             </value>
@@ -40,52 +40,52 @@
       </block>
     </statement>
   </block>
-  <block type="component_event" id="12" x="107" y="-298">
+  <block type="component_event" id="9" x="107" y="-298">
     <mutation component_type="Button" instance_name="Button3" event_name="Click"></mutation>
     <field name="COMPONENT_SELECTOR">Button3</field>
     <statement name="DO">
-      <block type="controls_openAnotherScreen" id="13" inline="false">
+      <block type="controls_openAnotherScreen" id="10" inline="false">
         <value name="SCREEN">
-          <block type="text" id="14">
+          <block type="text" id="11">
             <field name="TEXT">StarJobTabs</field>
           </block>
         </value>
       </block>
     </statement>
   </block>
-  <block type="component_event" id="15" x="108" y="-233">
+  <block type="component_event" id="12" x="108" y="-233">
     <mutation component_type="Button" instance_name="Button4" event_name="Click"></mutation>
     <field name="COMPONENT_SELECTOR">Button4</field>
     <statement name="DO">
-      <block type="controls_openAnotherScreen" id="16" inline="false">
+      <block type="controls_openAnotherScreen" id="13" inline="false">
         <value name="SCREEN">
-          <block type="text" id="17">
+          <block type="text" id="14">
             <field name="TEXT">ProfileEmployee</field>
           </block>
         </value>
       </block>
     </statement>
   </block>
-  <block type="component_event" id="18" x="-344" y="-200">
+  <block type="component_event" id="15" x="-344" y="-200">
     <mutation component_type="Button" instance_name="Button10" event_name="Click"></mutation>
     <field name="COMPONENT_SELECTOR">Button10</field>
     <statement name="DO">
-      <block type="component_set_get" id="19" inline="false">
+      <block type="component_set_get" id="16" inline="false">
         <mutation component_type="Button" set_or_get="set" property_name="Visible" is_generic="false" instance_name="Button5"></mutation>
         <field name="COMPONENT_SELECTOR">Button5</field>
         <field name="PROP">Visible</field>
         <value name="VALUE">
-          <block type="logic_boolean" id="20">
+          <block type="logic_boolean" id="17">
             <field name="BOOL">TRUE</field>
           </block>
         </value>
         <next>
-          <block type="component_set_get" id="21" inline="false">
+          <block type="component_set_get" id="18" inline="false">
             <mutation component_type="Button" set_or_get="set" property_name="Visible" is_generic="false" instance_name="Button10"></mutation>
             <field name="COMPONENT_SELECTOR">Button10</field>
             <field name="PROP">Visible</field>
             <value name="VALUE">
-              <block type="logic_boolean" id="22">
+              <block type="logic_boolean" id="19">
                 <field name="BOOL">FALSE</field>
               </block>
             </value>

@@ -1,37 +1,37 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="component_event" id="4" x="544" y="228">
+  <block type="component_event" id="1" x="544" y="228">
     <mutation component_type="Button" instance_name="Button3" event_name="Click"></mutation>
     <field name="COMPONENT_SELECTOR">Button3</field>
     <statement name="DO">
-      <block type="controls_openAnotherScreen" id="5" inline="false">
+      <block type="controls_openAnotherScreen" id="2" inline="false">
         <value name="SCREEN">
-          <block type="text" id="6">
+          <block type="text" id="3">
             <field name="TEXT">Search</field>
           </block>
         </value>
       </block>
     </statement>
   </block>
-  <block type="component_event" id="7" x="543" y="304">
+  <block type="component_event" id="4" x="543" y="304">
     <mutation component_type="Button" instance_name="Button5" event_name="Click"></mutation>
     <field name="COMPONENT_SELECTOR">Button5</field>
     <statement name="DO">
-      <block type="controls_openAnotherScreen" id="8" inline="false">
+      <block type="controls_openAnotherScreen" id="5" inline="false">
         <value name="SCREEN">
-          <block type="text" id="9">
+          <block type="text" id="6">
             <field name="TEXT">StarJobTabs</field>
           </block>
         </value>
       </block>
     </statement>
   </block>
-  <block type="component_event" id="10" x="544" y="389">
+  <block type="component_event" id="7" x="544" y="389">
     <mutation component_type="Button" instance_name="Button4" event_name="Click"></mutation>
     <field name="COMPONENT_SELECTOR">Button4</field>
     <statement name="DO">
-      <block type="controls_openAnotherScreen" id="11" inline="false">
+      <block type="controls_openAnotherScreen" id="8" inline="false">
         <value name="SCREEN">
-          <block type="text" id="12">
+          <block type="text" id="9">
             <field name="TEXT">ProfileEmployee</field>
           </block>
         </value>
